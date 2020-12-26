@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
+import Link from 'next/link'
 
 const Index = () => {
     return (
@@ -14,12 +15,16 @@ const Index = () => {
                     </Container>
                 </div>
                 <div className="session-2">
-                    <Container maxWidth="lg">
-                        <div className="header-session">
-                            <h3>ABOUT ME</h3>
-                            <h4>GET TO KNOW ME BEFORE YOU DIVE INTO MY CONTENT.</h4>
-                        </div>
-                    </Container>
+                    <div className="header-session">
+                        <h3>ABOUT ME</h3>
+                        <h4>GET TO KNOW ME BEFORE YOU CHOOSE ME</h4>
+                    </div>
+                    <div className="avt-me">
+                        <img src="images/avt/1.png" alt="" />
+                    </div>
+                    <div className="caption">
+                        <p>I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures. After obtaining my Master's Degree in computer science, I gained experience from the startup world, where I used JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website :-)</p>
+                    </div>
                 </div>
             </div>
 

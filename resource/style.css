@@ -13,7 +13,7 @@
 .logo, .logo span {
   font-size: 24px !important;
   font-family: "Luckiest Guy", cursive !important;
-  color: #2C3E50 !important;
+  color: #4C4C4C !important;
 }
 .logo span {
   color: #26a699 !important;
@@ -133,6 +133,7 @@ ul.iconSocial li:hover {
   background-image: url("/images/bg1.gif");
   width: 100%;
   height: calc(100vh);
+  border-bottom: #4C4C4C !important solid 1px;
 }
 .session-1 .index-caption {
   position: absolute;
@@ -158,18 +159,15 @@ ul.iconSocial li:hover {
 
 .session-2 {
   display: flex;
-  justify-content: center;
-  background-attachment: fixed;
-  background-position: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 85px 20px;
-  width: 100%;
   height: 100vh;
+  width: auto !important;
+  border-bottom: #4C4C4C !important solid 1px;
 }
 .session-2 .header-session {
-  text-align: center;
   margin-top: 10px;
 }
 .session-2 .header-session h3 {
@@ -182,8 +180,26 @@ ul.iconSocial li:hover {
   text-transform: uppercase;
 }
 .session-2 .header-session h4 {
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 12px;
   line-height: 1;
   letter-spacing: 1px;
+  opacity: 0.5;
+}
+.session-2 .avt-me {
+  padding-top: 40px;
+}
+.session-2 .avt-me img {
+  width: 100px;
+  height: 100px;
+  background-color: #DDAD26;
+  border-radius: 50px;
+}
+.session-2 .caption {
+  text-align: center;
+  padding-top: 40px;
+  max-width: 700px;
+}
+.session-2 .caption p {
+  margin: 0 20px;
 }
