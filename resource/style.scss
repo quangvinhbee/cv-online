@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Luckiest+Guy&family=Open+Sans&family=Oswald&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+$color-black : #2C3E50 !important;
+$color-black-light : #1a4a7a !important;
+$color-blue:rgb(38, 166, 153) !important;
+$color-white:white !important;
+$width_table: 100vw/12*5-1;
+$height_table: 100vw/12*5-1;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.body {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.logo {
+
+    font: {
+        size: 24px !important;
+        family: 'Luckiest Guy', cursive !important;
+    }
+
+    color:$color-black;
+
+    span {
+        @extend .logo;
+        color: $color-blue;
+    }
+}
+
+.appbar {
+    background-color: $color-white;
+}
+
+.btn {
+    width: auto;
+    display: block;
+
+    &-create-room {
+        padding: 10px !important;
+        color: #2C3E50 !important;
+        margin-left: 40px !important;
+
+        span,
+        a {
+            color: #2C3E50 !important;
+
+            font: {
+                size: 18px !important;
+                family: 'Luckiest Guy', cursive !important;
+            }
+        }
+
+    }
+
+    &-join-room {
+        padding: 10px !important;
+        color: #2C3E50 !important;
+
+        span,
+        a {
+            color: #2C3E50 !important;
+
+            font: {
+                size: 18px !important;
+                family: 'Luckiest Guy', cursive !important;
+            }
+        }
+    }
+
+    &-play {
+        color: #2C3E50 !important;
+        width: 30% !important;
+        margin-top: 30px !important;
+        border-radius: 100px !important;
+
+        span,
+        a {
+            color: #2C3E50 !important;
+            letter-spacing: 3px;
+
+            font: {
+                size: 18px !important;
+                family: 'Luckiest Guy', cursive !important;
+            }
+        }
+    }
+}
+
+.img {
+    width: auto;
+    height: auto;
+
+    &-logo {
+        content: url("../public/images/LogoVinhBee.png");
+        width: 140px !important;
+        height: auto;
+        margin-left: 30px !important;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: #2C3E50;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px 15px 10px 50px;
+    background: transparent !important;
+
+    ul {
+        list-style: none;
+        display: flex;
+        float: right;
+        margin-bottom: 0px !important;
+
+        font: {
+            size: 16px;
+        }
+
+        li {
+            display: flex;
+            margin: 0px 10px;
+            padding: 5px;
+        }
+    }
+}
+
+ul.iconSocial {
+    position: fixed;
+    width: 50px;
+    z-index: 999;
+    margin: 0;
+    top: 40%;
+    left: 0;
+
+    li {
+        font-size: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+
+.nav-menu-no-color {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.nav-menu-active {
+    background: transparent !important;
+    background-color: white !important;
+}
+
+
+.session-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('/images/bg1.gif');
+    width: 100%;
+    height: calc(100vh);
+
+    .index-caption {
+        position: absolute;
+        left: 0;
+        top: 35%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            font-size: 45px;
+            color: rgb(207, 207, 207) !important;
+            letter-spacing: 4px;
+        }
+
+        h3 {
+            color: rgb(207, 207, 207) !important;
+            letter-spacing: 4px;
+            font-weight: 400;
+        }
+    }
+}
+
+.session-2 {
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh);
+}
