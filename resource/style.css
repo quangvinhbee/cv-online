@@ -163,9 +163,9 @@ ul.iconSocial li:hover {
   align-items: center;
   text-align: center;
   padding: 85px 20px;
-  height: 100vh;
+  height: auto;
   width: auto !important;
-  border-bottom: #4C4C4C !important solid 1px;
+  border-bottom: #4c4c4c36 solid 1px;
 }
 .session-2 .header-session {
   margin-top: 10px;
@@ -202,4 +202,195 @@ ul.iconSocial li:hover {
 }
 .session-2 .caption p {
   margin: 0 20px;
+}
+
+.session-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 65px 10px;
+  height: auto;
+  width: auto !important;
+  border-bottom: #4c4c4c36 solid 1px;
+}
+.session-3 .header-session h3 {
+  margin: 0;
+  padding: 0 0 10px;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.session-3 .header-session h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+.session-3 .my-story {
+  width: 100%;
+  margin-top: 40px;
+}
+.session-3 .my-story .line {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.session-3 .my-story ul {
+  list-style-type: none;
+  width: auto;
+}
+.session-3 .my-story ul .end-story {
+  text-align: center !important;
+  min-height: 0;
+  z-index: 5;
+  background-color: #fff;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.session-3 .my-story ul .end-story h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.session-3 .my-story ul li {
+  max-width: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.session-3 .my-story ul li .images-story {
+  width: 100px;
+  height: 100px;
+  border-radius: 55px;
+  background-color: #DDAD26;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+.session-3 .my-story ul li .images-story img {
+  width: 100px;
+  height: 100px;
+}
+.session-3 .my-story ul li .mr500 {
+  margin-right: 420px;
+}
+.session-3 .my-story ul li .ml500 {
+  margin-left: 420px;
+}
+.session-3 .my-story ul li .caption-story {
+  min-height: 200px;
+}
+.session-3 .my-story ul li .caption-story h3 {
+  font-size: 18px;
+}
+.session-3 .my-story .line::before {
+  left: calc(50% - 1px);
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #b4b4b4;
+}
+
+@media (max-width: 900px) {
+  .session-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 65px 10px;
+    height: auto;
+    width: auto !important;
+    border-bottom: #4c4c4c36 solid 1px;
+  }
+  .session-3 .header-session h3 {
+    margin: 0;
+    padding: 0 0 10px;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .session-3 .header-session h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 1px;
+    opacity: 0.5;
+  }
+  .session-3 .my-story {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .session-3 .my-story .line {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .session-3 .my-story ul {
+    list-style-type: none;
+    width: auto;
+  }
+  .session-3 .my-story ul li {
+    max-width: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+  }
+  .session-3 .my-story ul li .images-story {
+    width: 100px;
+    height: 100px;
+    border-radius: 55px;
+    background-color: #DDAD26;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .session-3 .my-story ul li .images-story img {
+    width: 100px;
+    height: 100px;
+  }
+  .session-3 .my-story ul li .mr500 {
+    margin-right: 0;
+  }
+  .session-3 .my-story ul li .ml500 {
+    margin-left: 0;
+  }
+  .session-3 .my-story ul li .caption-story {
+    text-align: center !important;
+    min-height: 0;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    z-index: 5;
+    background-color: #fff;
+  }
+  .session-3 .my-story ul li .caption-story h3 {
+    font-size: 22px;
+  }
+  .session-3 .my-story ul li .caption-story h4 {
+    font-size: 20px;
+  }
+  .session-3 .my-story .line::before {
+    left: calc(50% - 1px);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #b4b4b4;
+  }
+}
+.red {
+  color: #c70000;
 }
