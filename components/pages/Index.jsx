@@ -28,7 +28,7 @@ const Index = () => {
                             I live in HCMC and am studying at the Post and Telecommunication Institute of Technology, HCMC.
                             I'm a 4th year student majoring in information security.
                             I love web programming, I have been learning web programming since my freshman year.
-                            During my study, I learned some frameworks such as Wordpress, Spring, ReactJS, NextJS... And I did some related work. Please see my story for more info.
+                            During my study, I learned some frameworks such as Wordpress, Bootstrap, ReactJS, NextJS... And I did some related work. Please see my story for more info.
                             Thank you for visiting the website <i class="fa fa-heart red"></i>
                         </p>
                     </div>
@@ -47,7 +47,9 @@ const Index = () => {
                                 <div className="caption-story text-right mr500">
                                     <h3>2014-2017</h3>
                                     <h3>Binh Minh High School</h3>
-                                    <p>story story story story story story story story story story </p>
+                                    <p>- Won 2 second prizes "Tin hoc tre" in 2016 and 2017 <br />
+                                    - Won 1 consolation prize "HSG Tin hoc" in 2016
+                                    </p>
                                 </div>
                             </li>
                             <li>
@@ -55,9 +57,10 @@ const Index = () => {
                                     <img src="images/avt/1.png" />
                                 </div>
                                 <div className="caption-story text-left ml500">
-                                    <h3>2014-2017</h3>
-                                    <h3>Binh Minh High School</h3>
-                                    <p>story story story story story story story story story story </p>
+                                    <h3>2017-Now</h3>
+                                    <h3>Post and Telecommunication Institute of Technology, HCMC - PTITHCM</h3>
+                                    <p>- I learned many skills related to programming and security at PTITHCM
+                                        such as: Data Structure and Algorithms, Web, Network, Web Security, Database Security,... </p>
                                 </div>
                             </li>
                             <li>
@@ -65,9 +68,9 @@ const Index = () => {
                                     <img src="images/avt/1.png" />
                                 </div>
                                 <div className="caption-story text-right mr500">
-                                    <h3>2014-2017</h3>
-                                    <h3>Binh Minh High School</h3>
-                                    <p>story story story story story story story story story story </p>
+                                    <h3>2017-2019</h3>
+                                    <h3>Freelancer - Self Employed</h3>
+                                    <p>- While studing, I got  </p>
                                 </div>
                             </li>
                             <li>
@@ -75,14 +78,56 @@ const Index = () => {
                                     <img src="images/avt/1.png" />
                                 </div>
                                 <div className="caption-story text-left ml500">
-                                    <h3>2014-2017</h3>
-                                    <h3>Binh Minh High School</h3>
-                                    <p>story story story story story story story story story story </p>
+                                    <h3>Jan 2020 - Jun 2020</h3>
+                                    <h3>Lam Beauty Clinic (Part Time)</h3>
+                                    <p>- I produced media, support marketing and website design (Wordpress).
+                                        <Link href='https://lambeautyclinic.vn/'> Link website</ Link></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="images-story">
+                                    <img src="images/avt/1.png" />
+                                </div>
+                                <div className="caption-story text-right mr500">
+                                    <h3>Jan 2020 - Now</h3>
+                                    <h3>Learn web programming</h3>
+                                    <p><b>Jan - May 2020:</b> I learned Java Web (JSP/Servlet).
+                                        While studying, I did a project on the Toeic test. <br />Link:
+                                        <Link href='https://github.com/quangvinhbee/Web_Toeic'> Source</ Link> &
+                                        <Link href='https://www.youtube.com/watch?v=zRWvFNz5fiw'> Demo</ Link> <br />
+                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Redux, Router, Material UI.
+                                        While studying, I did some projects on the Game Caro Multiplayer (
+                                            <Link href='https://github.com/quangvinhbee/game-caro-nextjs'> Source</ Link> &
+                                        <Link href='https://game-caro.vercel.app/'> Demo</ Link>), Todo List (
+                                            <Link href='https://github.com/quangvinhbee/react-redux-router-material'> Source</ Link>)
+
+                                    </p>
                                 </div>
                             </li>
                             <li className='end-story'>
                                 <h4>Be part of my story.</h4>
                             </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="session-4">
+                    <div className="header-session">
+                        <h3>MY SKILL</h3>
+                        <h4></h4>
+                    </div>
+                    <div className="skills">
+                        <ul>
+                            <li>
+                                <div className="img-skill">
+                                    <img src="images/skill1.svg" alt="" />
+                                </div>
+                                <div className="header">
+                                    <h3>Work Group</h3>
+                                </div>
+                            </li>
+                            <li>s</li>
+                            <li>s</li>
+                            <li>s</li>
                         </ul>
                     </div>
                 </div>

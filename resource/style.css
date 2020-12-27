@@ -251,10 +251,11 @@ ul.iconSocial li:hover {
   background-color: #fff;
   padding: 0 !important;
   margin: 0 !important;
+  width: 100px;
 }
 .session-3 .my-story ul .end-story h4 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .session-3 .my-story ul li {
   max-width: 700px;
@@ -391,6 +392,54 @@ ul.iconSocial li:hover {
     background-color: #b4b4b4;
   }
 }
+.session-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 65px 10px;
+  height: auto;
+  width: auto !important;
+  border-bottom: #4c4c4c36 solid 1px;
+}
+.session-4 .header-session h3 {
+  margin: 0;
+  padding: 0 0 10px;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.session-4 .header-session h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+.session-4 .skills {
+  margin-top: 30px;
+}
+.session-4 .skills ul {
+  display: flex;
+  list-style-type: none;
+}
+.session-4 .skills ul li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px 60px;
+  max-width: 350px;
+}
+.session-4 .skills ul li .img-skill {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
 .red {
   color: #c70000;
 }
