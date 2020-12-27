@@ -277,6 +277,7 @@ ul.iconSocial li:hover {
 .session-3 .my-story ul li .images-story img {
   width: 100px;
   height: 100px;
+  border-radius: 50px;
 }
 .session-3 .my-story ul li .mr500 {
   margin-right: 420px;
@@ -361,6 +362,7 @@ ul.iconSocial li:hover {
   .session-3 .my-story ul li .images-story img {
     width: 100px;
     height: 100px;
+    border-radius: 50px;
   }
   .session-3 .my-story ul li .mr500 {
     margin-right: 0;

@@ -29,7 +29,7 @@ const Index = () => {
                             I'm a 4th year student majoring in information security.
                             I love web programming, I have been learning web programming since my freshman year.
                             During my study, I learned some frameworks such as Wordpress, Bootstrap, ReactJS, NextJS... And I did some related work. Please see my story for more info.
-                            Thank you for visiting the website <i class="fa fa-heart red"></i>
+                            Thank you for visiting the website <i className="fa fa-heart red"></i>
                         </p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Index = () => {
                             </li>
                             <li>
                                 <div className="images-story">
-                                    <img src="images/avt/1.png" />
+                                    <img src="images/ptit.jpg" />
                                 </div>
                                 <div className="caption-story text-left ml500">
                                     <h3>2017-Now</h3>
@@ -65,7 +65,7 @@ const Index = () => {
                             </li>
                             <li>
                                 <div className="images-story">
-                                    <img src="images/avt/1.png" />
+                                    <img src="images/freelancer.jpg" />
                                 </div>
                                 <div className="caption-story text-right mr500">
                                     <h3>2017-2019</h3>
@@ -75,7 +75,7 @@ const Index = () => {
                             </li>
                             <li>
                                 <div className="images-story">
-                                    <img src="images/avt/1.png" />
+                                    <img src="images/lam.png" />
                                 </div>
                                 <div className="caption-story text-left ml500">
                                     <h3>Jan 2020 - Jun 2020</h3>
@@ -86,7 +86,7 @@ const Index = () => {
                             </li>
                             <li>
                                 <div className="images-story">
-                                    <img src="images/avt/1.png" />
+                                    <img src="images/frontend.jpg" />
                                 </div>
                                 <div className="caption-story text-right mr500">
                                     <h3>Jan 2020 - Now</h3>
