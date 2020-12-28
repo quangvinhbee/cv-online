@@ -74,7 +74,7 @@ const Index = () => {
                                     <h3>Freelancer - Self Employed</h3>
                                     <p>- While studying, I got some jobs to make money:
                                     <br />+ Design Logo, Banner, Poster, Video,...
-                                    <br />+ Design web sales for several clients in HCMC.
+                                    <br />+ Design and SEO web sales for several clients in HCMC.
                                     <br /> See more  <Link href='https://drive.google.com/drive/folders/1OiKDXWM_Hk3SrxXkUt1QOe5bosP2z7P4?usp=sharing'> My portflio</ Link>
                                     </p>
                                 </div>
