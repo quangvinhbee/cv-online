@@ -8,6 +8,7 @@ const Layout = (props) => {
                 <title>{props.title}</title>
                 <meta name="theme-color" content="#000000" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:image" content="https://www.syncfusion.com/blogs/wp-content/uploads/2020/07/Top-6-Front-End-Web-Development-Tools-to-Increase-Your-Productivity-in-2020-1.jpg"></meta>
                 {/* Favicon */}
                 <link rel="icon" href="/images/Favicon.png" />
                 {/* Font Open Sans */}
