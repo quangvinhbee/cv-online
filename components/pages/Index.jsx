@@ -42,7 +42,7 @@ const Index = () => {
                         <ul className="line">
                             <li>
                                 <div className="images-story">
-                                    <img src="images/avt/1.png" />
+                                    <img src="images/avt/6.png" />
                                 </div>
                                 <div className="caption-story text-right mr500">
                                     <h3>2014-2017</h3>
@@ -60,7 +60,7 @@ const Index = () => {
                                     <h3>2017-Now</h3>
                                     <h3>Post and Telecommunication Institute of Technology, HCMC - PTITHCM</h3>
                                     <p>- I learned many skills related to programming and security at PTITHCM
-                                        such as: Data Structure and Algorithms, Web, Network, Web Security, Database Security,... </p>
+                                        such as: Data Structure and Algorithms, Web, Socket, Web Security, Database Security,... </p>
                                 </div>
                             </li>
                             <li>
@@ -91,16 +91,16 @@ const Index = () => {
                                 <div className="caption-story text-right mr500">
                                     <h3>Jan 2020 - Now</h3>
                                     <h3>Learn web programming</h3>
-                                    <p><b>Jan - May 2020:</b> I learned Java Web (JSP/Servlet).
+                                    <p><b>Jan - May 2020:</b> I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
                                         While studying, I did a project on the Toeic test. <br />Link:
                                         <Link href='https://github.com/quangvinhbee/Web_Toeic'> Source</ Link> &
                                         <Link href='https://www.youtube.com/watch?v=zRWvFNz5fiw'> Demo</ Link> <br />
-                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Redux, Router, Material UI.
+                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Redux, Router, Material UI...
                                         While studying, I did some projects on the Game Caro Multiplayer (
                                             <Link href='https://github.com/quangvinhbee/game-caro-nextjs'> Source</ Link> &
                                         <Link href='https://game-caro.vercel.app/'> Demo</ Link>), Todo List (
-                                            <Link href='https://github.com/quangvinhbee/react-redux-router-material'> Source</ Link>)
-
+                                            <Link href='https://github.com/quangvinhbee/react-redux-router-material'> Source</ Link>).
+                                            Stay tuned to my <Link href='https://github.com/quangvinhbee/'>github</Link> to see more
                                     </p>
                                 </div>
                             </li>
@@ -115,21 +115,118 @@ const Index = () => {
                         <h3>MY SKILL</h3>
                         <h4></h4>
                     </div>
-                    <div className="skills">
+                    <div className="skills-soft">
                         <ul>
                             <li>
                                 <div className="img-skill">
                                     <img src="images/skill1.svg" alt="" />
                                 </div>
                                 <div className="header">
-                                    <h3>Work Group</h3>
+                                    <h3>Teamwork</h3>
+                                </div>
+                                <div className="caption">
+                                    <p>
+                                        I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
+                                        While studying, I did a project on the Toeic test.
+                                    </p>
                                 </div>
                             </li>
-                            <li>s</li>
-                            <li>s</li>
-                            <li>s</li>
+                            <li>
+                                <div className="img-skill">
+                                    <img src="images/skill1.svg" alt="" />
+                                </div>
+                                <div className="header">
+                                    <h3>Research</h3>
+                                </div>
+                                <div className="caption">
+                                    <p>
+                                        I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
+                                        While studying, I did a project on the Toeic test.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="img-skill">
+                                    <img src="images/skill1.svg" alt="" />
+                                </div>
+                                <div className="header">
+                                    <h3>English</h3>
+                                </div>
+                                <div className="caption">
+                                    <p>
+                                        I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
+                                        While studying, I did a project on the Toeic test.
+                                    </p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
+                    <div className="skills">
+                        <ul>
+                            <li>
+                                <div className="header">
+                                    <h3>PROGRAMMING LANGUAGES</h3>
+                                </div>
+                                <div className="caption">
+                                    <p>
+                                        HTML5, CSS3, Javascript ES6, Java, C/C++, Python
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="header">
+                                    <h3>FRAMEWORKS & PLATFORMS</h3>
+                                </div>
+                                <div className="caption">
+                                    <p>
+                                        <b>Style: </b>Bootstrap, SASS, Material UI<br />
+                                        <b>Framework: </b>NextJS (ReactJS), Redux, Router<br />
+                                        <b>Database: </b>MySQL, SQL Server, Firebase<br />
+                                        <b>Version Control: </b>Git<br />
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="header">
+                                    <h3>IDE & EDITOR</h3>
+                                </div>
+                                <div className="caption">
+                                    <p>
+                                        Visual Studio, Visual Studio Code, Sublime Text, Netbeans, Eclipse, Dev C
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="session-5">
+                    <div className="header-session">
+                        <h3>Contact me</h3>
+                        <ul>
+                            <li>
+                                <Link href='mailto:lamquangvinh44@gmail.com'><i class="fa fa-envelope" aria-hidden="true"></i></ Link>
+
+                            </li>
+                            <li>
+                                <Link href='https://www.facebook.com/quangvinhbee/'><i class="fa fa-facebook-square" aria-hidden="true"></i></ Link>
+
+                            </li>
+                            <li>
+                                <Link href='https://www.linkedin.com/in/lam-quang-vinh-666a18120/'><i class="fa fa-linkedin-square" aria-hidden="true"></i></ Link>
+                            </li>
+                            <li>
+                                <Link href='https://telegram.me/NoName160699'><i class="fa fa-telegram" aria-hidden="true"></i></ Link>
+                            </li>
+                            <li>
+                                <Link href='https://github.com/quangvinhbee'><i class="fa fa-github-square" aria-hidden="true"></i></ Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer>
+                        <div className="copyright">
+                            <small>© Lam Quang Vinh</small>
+                        </div>
+                    </footer>
                 </div>
             </div>
 
