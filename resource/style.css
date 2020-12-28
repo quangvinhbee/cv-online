@@ -498,8 +498,8 @@ ul.iconSocial li:hover {
   display: flex;
   text-align: center;
   flex-direction: column;
+  align-items: center;
   margin: 0 20px 60px;
-  width: 400px;
   max-width: 400px;
 }
 .session-4 .skills ul li .img-skill {
@@ -581,4 +581,103 @@ ul.iconSocial li:hover {
 
 .red {
   color: #c70000;
+}
+
+.line-1 {
+  top: 50%;
+  width: 600px;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 600px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@media (max-width: 900px) {
+  .session-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("/images/bg1.gif");
+    width: 100%;
+    height: calc(100vh);
+    border-bottom: #4C4C4C !important solid 1px;
+  }
+  .session-1 .index-caption {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .session-1 .index-caption h1 {
+    font-size: 20px;
+    color: #cfcfcf !important;
+    letter-spacing: 4px;
+    font-weight: 500;
+  }
+  .session-1 .index-caption h3 {
+    color: #cfcfcf !important;
+    letter-spacing: 4px;
+    font-weight: 200;
+  }
+
+  .line-1 {
+    top: 50%;
+    width: 300px;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+  /* Animation */
+  .anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
 }
