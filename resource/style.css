@@ -258,7 +258,7 @@ ul.iconSocial li:hover {
   font-weight: 500;
 }
 .session-3 .my-story ul li {
-  max-width: 700px;
+  max-width: 720px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -461,14 +461,18 @@ ul.iconSocial li:hover {
 }
 .session-4 .skills-soft ul li {
   display: flex;
-  justify-content: center;
   text-align: center;
   flex-direction: column;
   align-items: center;
   margin: 0 20px 60px;
-  max-width: 300px;
+  max-width: 400px;
 }
 .session-4 .skills-soft ul li .img-skill {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+.session-4 .skills-soft ul li .img-skill img {
   width: 70px;
   height: 70px;
   padding: 5px;
@@ -492,11 +496,11 @@ ul.iconSocial li:hover {
 }
 .session-4 .skills ul li {
   display: flex;
-  justify-content: center;
   text-align: center;
   flex-direction: column;
   margin: 0 20px 60px;
-  max-width: 300px;
+  width: 400px;
+  max-width: 400px;
 }
 .session-4 .skills ul li .img-skill {
   width: 70px;
@@ -507,13 +511,13 @@ ul.iconSocial li:hover {
   margin: 0;
   padding: 0 0 10px;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 .session-4 .skills ul li .caption {
-  text-align: left;
+  text-align: center;
 }
 
 .session-5 {

@@ -28,7 +28,9 @@ const Index = () => {
                             I live in HCMC and am studying at the Post and Telecommunication Institute of Technology, HCMC.
                             I'm a 4th year student majoring in information security.
                             I love web programming, I have been learning web programming since my freshman year.
-                            During my study, I learned some frameworks such as Wordpress, Bootstrap, ReactJS, NextJS... And I did some related work. Please see my story for more info.
+                            During my study, I learned some frameworks such as Wordpress, Bootstrap, ReactJS, NextJS...
+                            And I did some related work.
+                            I am looking for a job in Front end web programming (React JS).
                             Thank you for visiting the website <i className="fa fa-heart red"></i>
                         </p>
                     </div>
@@ -60,7 +62,7 @@ const Index = () => {
                                     <h3>2017-Now</h3>
                                     <h3>Post and Telecommunication Institute of Technology, HCMC - PTITHCM</h3>
                                     <p>- I learned many skills related to programming and security at PTITHCM
-                                        such as: Data Structure and Algorithms, Web, Socket, Web Security, Database Security,... </p>
+                                        such as: Data Structure and Algorithms, OOP, Web, Web Socket, Web Security, Database Security,... </p>
                                 </div>
                             </li>
                             <li>
@@ -70,7 +72,10 @@ const Index = () => {
                                 <div className="caption-story text-right mr500">
                                     <h3>2017-2019</h3>
                                     <h3>Freelancer - Self Employed</h3>
-                                    <p>- While studing, I got  </p>
+                                    <p>- While studying, I got some jobs to make money:
+                                    <br />+ Design Logo, Banner, Poster, Video,...
+                                    <br />+ Design web sales for several clients in HCMC.
+                                    </p>
                                 </div>
                             </li>
                             <li>
@@ -95,8 +100,9 @@ const Index = () => {
                                         While studying, I did a project on the Toeic test. <br />Link:
                                         <Link href='https://github.com/quangvinhbee/Web_Toeic'> Source</ Link> &
                                         <Link href='https://www.youtube.com/watch?v=zRWvFNz5fiw'> Demo</ Link> <br />
-                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Redux, Router, Material UI...
-                                        While studying, I did some projects on the Game Caro Multiplayer (
+                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Redux, Router, Authentication Firebase,
+                                         Web API, Restful API, Bootstrap UI, Material UI...
+                                        While studying, I did some projects on the Game Caro Multiplayer Online (
                                             <Link href='https://github.com/quangvinhbee/game-caro-nextjs'> Source</ Link> &
                                         <Link href='https://game-caro.vercel.app/'> Demo</ Link>), Todo List (
                                             <Link href='https://github.com/quangvinhbee/react-redux-router-material'> Source</ Link>).
@@ -112,7 +118,7 @@ const Index = () => {
                 </div>
                 <div className="session-4">
                     <div className="header-session">
-                        <h3>MY SKILL</h3>
+                        <h3>MY SKILLS</h3>
                         <h4></h4>
                     </div>
                     <div className="skills-soft">
@@ -126,36 +132,34 @@ const Index = () => {
                                 </div>
                                 <div className="caption">
                                     <p>
-                                        I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
-                                        While studying, I did a project on the Toeic test.
+                                        I have been working in groups since I was at school, I always listen to and absorb people's opinions
                                     </p>
                                 </div>
                             </li>
                             <li>
                                 <div className="img-skill">
-                                    <img src="images/skill1.svg" alt="" />
+                                    <img src="images/skill2.svg" alt="" />
                                 </div>
                                 <div className="header">
                                     <h3>Research</h3>
                                 </div>
                                 <div className="caption">
                                     <p>
-                                        I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
-                                        While studying, I did a project on the Toeic test.
+                                        What I know is what I learn by myself and learn from the internet, my friends, my lecturers. I have the ability to learn very quickly
                                     </p>
                                 </div>
                             </li>
                             <li>
                                 <div className="img-skill">
-                                    <img src="images/skill1.svg" alt="" />
+                                    <img src="images/skill3.svg" alt="" />
                                 </div>
                                 <div className="header">
                                     <h3>English</h3>
                                 </div>
                                 <div className="caption">
                                     <p>
-                                        I learned Java Web (JSP/Servlet, Responsive, Bootstrap, MySQL, SQL Server,...).
-                                        While studying, I did a project on the Toeic test.
+
+                                        My English is only in reading and writing. I often read English documents to learn
                                     </p>
                                 </div>
                             </li>
@@ -192,7 +196,8 @@ const Index = () => {
                                 </div>
                                 <div className="caption">
                                     <p>
-                                        Visual Studio, Visual Studio Code, Sublime Text, Netbeans, Eclipse, Dev C
+                                        <b>Code IDE: </b> Visual Studio, Visual Studio Code, Sublime Text, Netbeans, Eclipse, Dev C<br />
+                                        <b>Design Tool: </b> Adobe Photoshop, Adobe Illustrator, Adobe Premiere<br />
                                     </p>
                                 </div>
                             </li>
@@ -201,7 +206,7 @@ const Index = () => {
                 </div>
                 <div className="session-5">
                     <div className="header-session">
-                        <h3>Contact me</h3>
+                        <h3>Please contact me</h3>
                         <ul>
                             <li>
                                 <Link href='mailto:lamquangvinh44@gmail.com'><i class="fa fa-envelope" aria-hidden="true"></i></ Link>
