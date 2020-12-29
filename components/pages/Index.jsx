@@ -30,7 +30,7 @@ const Index = () => {
                             I love web programming, I have been learning web programming since my freshman year.
                             During my study, I learned some frameworks such as Wordpress, Bootstrap, ReactJS, NextJS...
                             And I did some related work.
-                            I am looking for a job in Front end web programming (React JS).
+                            I am looking for a job full time in Front end web programming (React JS).
                             Thank you for visiting the website <i className="fa fa-heart red"></i>
                         </p>
                     </div>
@@ -74,7 +74,7 @@ const Index = () => {
                                     <h3>Freelancer - Self Employed</h3>
                                     <p>- While studying, I got some jobs to make money:
                                     <br />+ Design Logo, Banner, Poster, Video,...
-                                    <br />+ Design and SEO web sales for several clients in HCMC.
+                                    <br />+ Design and SEO web sales (ladipage, wordpress,...) for several clients in HCMC.
                                     <br /> See more  <Link href='https://drive.google.com/drive/folders/1OiKDXWM_Hk3SrxXkUt1QOe5bosP2z7P4?usp=sharing'> My portflio</ Link>
                                     </p>
                                 </div>
@@ -109,6 +109,17 @@ const Index = () => {
                                             <Link href='https://github.com/quangvinhbee/react-redux-router-material'> Source</ Link>).
                                             Stay tuned to my <Link href='https://github.com/quangvinhbee/'>github</Link> to see more
                                     </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="images-story">
+                                    <img src="images/learnmore.png" />
+                                </div>
+                                <div className="caption-story text-left ml500">
+                                    <h3>Future</h3>
+                                    <h3>Learn more</h3>
+                                    <p>- I will learn NodeJS, AngularJS, VueJS, ...
+                                        </p>
                                 </div>
                             </li>
                             <li className='end-story'>
