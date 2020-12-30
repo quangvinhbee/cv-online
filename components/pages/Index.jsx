@@ -101,7 +101,7 @@ const Index = () => {
                                         While studying, I did a project on the Toeic test. <br />Link:
                                         <Link href='https://github.com/quangvinhbee/Web_Toeic'> Source</ Link> &
                                         <Link href='https://www.youtube.com/watch?v=zRWvFNz5fiw'> Demo</ Link> <br />
-                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Redux, Router, Authentication Firebase,
+                                        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Hook, Redux, Router, Authentication Firebase,
                                          Web API, Restful API, Bootstrap UI, Material UI...
                                         While studying, I did some projects on the Game Caro Multiplayer Online (
                                             <Link href='https://github.com/quangvinhbee/game-caro-nextjs'> Source</ Link> &
