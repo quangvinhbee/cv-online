@@ -21,6 +21,7 @@
 
 .appbar {
   background-color: white !important;
+  z-index: 100;
 }
 
 .btn {
@@ -75,7 +76,7 @@
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   align-content: center;
   color: #2C3E50;
@@ -330,7 +331,6 @@ ul.iconSocial li:hover {
     content: url("../public/images/LogoVinhBee.png");
     width: 140px !important;
     height: auto;
-    margin-left: 50px !important;
   }
 
   .session-3 {

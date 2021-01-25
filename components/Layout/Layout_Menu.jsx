@@ -19,9 +19,9 @@ export default function Layout_Menu(props) {
   return (
     <>
       <CssBaseline />
-      <AppBar position="fixed" className='appbar' className={active ? 'nav-menu-active' : 'nav-menu-no-color'}>
+      <AppBar position="fixed" className='appbar z-50' className={active ? 'nav-menu-active' : 'nav-menu-no-color'}>
         <Toolbar className={active ? 'nav-menu-active' : 'nav-menu-no-color'}>
-          <div className="nav-menu">
+          <div className="nav-menu flex justify-center">
             <img src='images/LogoVinhBee.png' className='img img-logo' />
             <ul>
               <li></li>
