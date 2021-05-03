@@ -47,7 +47,7 @@ export function Carousel() {
                     <div className="uppercase text-gray-400">
                       {item.description}
                     </div>
-                    <div className="uppercase text-gray-400">{item.type}</div>
+                    <div className=" text-gray-400">{item.type}</div>
                     <div className="text-green-400">{item.year}</div>
                     <div className=" flex pt-10 absolute bottom-0">
                       <div
@@ -108,7 +108,7 @@ export function Carousel() {
 const ListItems = [
   {
     title: "Smartloyalty",
-    type: "WEBSITE",
+    type: "NextJS | TailwindCSS",
     year: "2021",
     shape: "images/shape1.svg",
     description: "",
@@ -118,7 +118,7 @@ const ListItems = [
   },
   {
     title: "Toeic Practice",
-    type: "WEBSITE",
+    type: "Java | JS | HTML5 | CSS",
     year: "2020",
     shape: "images/shape3.svg",
     description: "",
@@ -128,7 +128,7 @@ const ListItems = [
   },
   {
     title: "Game Caro Online ",
-    type: "WEBSITE",
+    type: "NextJS | MaterialUI | Firebase",
     year: "2020",
     shape: "images/shape2.svg",
     description: "",
