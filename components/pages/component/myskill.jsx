@@ -57,7 +57,7 @@ const myskill = [
   {
     title: "PROGRAMMING LANGUAGES",
     img: "images/skill4.svg",
-    desciption: <p>HTML5, CSS3, Javascript ES6, Java, C/C++, Python</p>,
+    desciption: <p>HTML5, CSS3, Javascript ES6, Java, C/C++</p>,
   },
   {
     title: "FRAMEWORKS & PLATFORMS",
