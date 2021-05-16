@@ -23,7 +23,7 @@ const Index = () => {
         <div className="session-4">
           <MySkill />
         </div>
-        <div className="session-5">
+        <div className="session-5 ">
           <Portfolio />
         </div>
         <div className="session-6">
