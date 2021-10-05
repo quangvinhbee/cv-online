@@ -75,7 +75,7 @@ const timeline = [
     ),
   },
   {
-    time: "Jan 2020 - Jun 2020",
+    time: "Jan 2019 - Jun 2020",
     title: "Lam Beauty Clinic (Part Time)",
     img: "images/lam.png",
     description: (
@@ -86,12 +86,12 @@ const timeline = [
     ),
   },
   {
-    time: "Jan 2020 - Now",
+    time: "Jan 2019 - Now",
     title: "Learn web programming",
     img: "images/frontend.jpg",
     description: (
       <p>
-        <b>Jan - May 2020:</b> I learned Java Web (JSP/Servlet, Responsive,
+        <b>2019 - May 2020:</b> I learned Java Web (JSP/Servlet, Responsive,
         Bootstrap, MySQL, SQL Server,...). While studying, I did a project on
         the Toeic test. <br />
         Link:
