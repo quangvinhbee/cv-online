@@ -115,13 +115,13 @@ const timeline = [
     ),
   },
   {
-    time: "Jan 2021 - Now",
+    time: "Oct 2020 - Now",
     title: "CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ MCOM (Fulltime)",
     img: "images/logomcom.png",
-    description: <p>- I joined the Smartloyalty project, it was the member 
-    management page project (Dashboard). <br />
+    description: <p>- I have participated in many projects with the company, 
+    mostly webapp design and management dashboard. <br />
     - Technologies: Tailwind CSS, Next JS, React Hooks, Context 
-    Provider, GraphQL, Firebase...<br />
+Provider, GraphQL, Firebase...<br />
     - Demo:<Link href="https://smartloyalty.mcom.app/"> https://smartloyalty.mcom.app/</Link></p>,
   },
   {
