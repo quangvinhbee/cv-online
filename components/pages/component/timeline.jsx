@@ -15,7 +15,12 @@ export function TimeLine() {
                 <div className="images-story">
                   <img src={item.img} />
                 </div>
-                <div className={"caption-story  " + (index%2==0 ?" text-right mr500":" text-left ml500")}>
+                <div
+                  className={
+                    "caption-story  " +
+                    (index % 2 == 0 ? " text-right mr500" : " text-left ml500")
+                  }
+                >
                   <h3>{item.time}</h3>
                   <h3>{item.title}</h3>
                   {item.description}
@@ -23,7 +28,7 @@ export function TimeLine() {
               </li>
             );
           })}
-          
+
           <li className="end-story">
             <h4>Be part of my story.</h4>
           </li>
@@ -98,9 +103,9 @@ const timeline = [
         <Link href="https://github.com/quangvinhbee/Web_Toeic">Source</Link>&
         <Link href="https://www.youtube.com/watch?v=zRWvFNz5fiw">Demo</Link>
         <br />
-        <b>May - Now 2020:</b> I learned ES6, SASS, ReactJS, NextJS, Hook,
-        Redux, Router, Authentication Firebase, Web API, Restful API, Bootstrap
-        UI, Material UI... While studying, I did some projects on the Game Caro
+        <b>May - Now:</b> I learned ES6, SASS, ReactJS, NextJS, Hook, Redux,
+        Router, Authentication Firebase, Web API, Restful API, Bootstrap UI,
+        Material UI... While studying, I did some projects on the Game Caro
         Multiplayer Online (
         <Link href="https://github.com/quangvinhbee/game-caro-nextjs">
           Source
@@ -118,11 +123,19 @@ const timeline = [
     time: "Oct 2020 - Now",
     title: "CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ MCOM (Fulltime)",
     img: "images/logomcom.png",
-    description: <p>- I have participated in many projects with the company, 
-    mostly webapp design and management dashboard. <br />
-    - Technologies: Tailwind CSS, Next JS, React Hooks, Context 
-Provider, GraphQL, Firebase...<br />
-    - Demo:<Link href="https://smartloyalty.mcom.app/"> https://smartloyalty.mcom.app/</Link></p>,
+    description: (
+      <p>
+        - I have participated in many projects with the company, mostly webapp
+        design and management dashboard. <br />
+        - Technologies: Tailwind CSS, Next JS, React Hooks, Context Provider,
+        GraphQL, Firebase...
+        <br />- Demo:
+        <Link href="https://smartloyalty.mcom.app/">
+          {" "}
+          https://smartloyalty.mcom.app/
+        </Link>
+      </p>
+    ),
   },
   {
     time: "Future",
