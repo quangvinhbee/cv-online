@@ -126,14 +126,8 @@ const timeline = [
     description: (
       <p>
         - I have participated in many projects with the company, mostly webapp
-        design and management dashboard. <br />
-        - Technologies: Tailwind CSS, Next JS, React Hooks, Context Provider,
-        GraphQL, Firebase...
-        <br />- Demo:
-        <Link href="https://smartloyalty.mcom.app/">
-          {" "}
-          https://smartloyalty.mcom.app/
-        </Link>
+        design and management dashboard. <br />- Technologies: Tailwind CSS,
+        Next JS, React Hooks, Context Provider, GraphQL, Firebase...
       </p>
     ),
   },
