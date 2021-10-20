@@ -120,7 +120,7 @@ const timeline = [
     ),
   },
   {
-    time: "Oct 2020 - Now",
+    time: "Jan 2021 - Oct 2021",
     title: "CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ MCOM (Fulltime)",
     img: "images/logomcom.png",
     description: (

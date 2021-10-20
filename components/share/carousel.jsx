@@ -106,16 +106,16 @@ export function Carousel() {
   );
 }
 const ListItems = [
-  {
-    title: "Smartloyalty",
-    type: "NextJS | TailwindCSS",
-    year: "2021",
-    shape: "images/shape1.svg",
-    description: "",
-    img: "https://i.imgur.com/8VnKU7E.png",
-    linkProduct: "https://smartloyalty.mcom.app/",
-    linkGithub: "",
-  },
+  // {
+  //   title: "Smartloyalty",
+  //   type: "NextJS | TailwindCSS",
+  //   year: "2021",
+  //   shape: "images/shape1.svg",
+  //   description: "",
+  //   img: "https://i.imgur.com/8VnKU7E.png",
+  //   linkProduct: "",
+  //   linkGithub: "",
+  // },
   {
     title: "Toeic Practice",
     type: "Java | JS | HTML5 | CSS",
